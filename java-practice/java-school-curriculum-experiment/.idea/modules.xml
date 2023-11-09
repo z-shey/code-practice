@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Experiment_03/Experiment_03.iml" filepath="$PROJECT_DIR$/Experiment_03/Experiment_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Experiment_04/Experiment_04.iml" filepath="$PROJECT_DIR$/Experiment_04/Experiment_04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Experiment_05/Experiment_05.iml" filepath="$PROJECT_DIR$/Experiment_05/Experiment_05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Experiment_06/Experiment_06.iml" filepath="$PROJECT_DIR$/Experiment_06/Experiment_06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Experiment_Extend/Experiment_Extend.iml" filepath="$PROJECT_DIR$/Experiment_Extend/Experiment_Extend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-school-curriculum-experiment.iml" filepath="$PROJECT_DIR$/java-school-curriculum-experiment.iml" />
+    </modules>
+  </component>
+</project>

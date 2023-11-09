@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Chapter10_Threading/Chapter10_Threading.iml" filepath="$PROJECT_DIR$/Chapter10_Threading/Chapter10_Threading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter13_Generics/Chapter13_Generics.iml" filepath="$PROJECT_DIR$/Chapter13_Generics/Chapter13_Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter15_IOStream/Chapter15_IOStream.iml" filepath="$PROJECT_DIR$/Chapter15_IOStream/Chapter15_IOStream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-online-course-code.iml" filepath="$PROJECT_DIR$/java-online-course-code.iml" />
+    </modules>
+  </component>
+</project>
