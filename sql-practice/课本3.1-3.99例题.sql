@@ -333,3 +333,238 @@ WHERE Student.Sno = SC.Sno
   AND SC.Sno = Course.Cno;
 
 -- Example 3.57
+SELECT Smajor
+From Student
+WHERE Sname = '刘晨';
+
+SELECT Sno, Sname, Smajor
+FROM Student
+WHERE Smajor = 'CS';
+
+SELECT Sno, Sname, Smajor
+FROM Student
+WHERE Smajor IN (SELECT Smajor
+                 FROM Student
+                 WHERE Sname = '刘晨');
+
+SELECT S1.Sno, S2.Sname, S1.Smajor
+FROM Student S1,
+     Student S2
+WHERE S1.Smajor = S2.Smajor
+  AND S2.Sname = '刘晨';
+
+
+-- Example 3.58
+SELECT Sno, Sname
+FROM Student
+WHERE Sno IN (SELECT Sno
+              FROM SC
+              WHERE Cno IN (SELECT Cno
+                            FROM Course
+                            WHERE Cname = '信息系统概论'));
+
+SELECT Student.Sno Sname
+FROM Student,
+     SC,
+     Course
+WHERE Student.Sno = SC.Sno
+  AND SC.Cno = Course.Cno
+  AND Course.Cname = '信息系统概论';
+
+SELECT Sno, Sname, Smajor
+FROM Student
+WHERE Smajor = (SELECT Smajor
+                FROM Student
+                WHERE Sname = '刘晨');
+
+-- Example 3.59
+SELECT Sno, Cno
+FROM SC x
+WHERE Grade >= (SELECT AVG(Grade)
+                FROM SC y
+                WHERE y.Sno = x.Sno);
+
+SELECT AVG(Grade)
+FROM SC y
+WHERE y.Sno = '202210220';
+
+SELECT Sno, Cno
+FROM SC x
+WHERE Grade >= 89.3;
+
+-- Example 3.60
+SELECT Sname, Sbirthday, Smajor
+FROM Student
+WHERE Sbirthday > ANY (SELECT Sbirthday
+                       FROM Student
+                       WHERE Smajor = 'CS')
+  AND Smajor <> 'CS';
+
+SELECT Sname, Sbirthday, Smajor
+FROM Student
+WHERE Sbirthday > (SELECT MIN(Sbirthday)
+                   FROM Student
+                   WHERE Smajor = 'CS')
+  AND Smajor <> 'CS';
+
+-- Example 3.61
+SELECT Sname, Sbirthday
+FROM Student
+WHERE Sbirthday > ALL (SELECT Sbirthday
+                       FROM Student
+                       WHERE Smajor = 'CS')
+  AND Smajor <> 'CS';
+
+SELECT Sname, Sbirthday
+FROM Student
+WHERE Sbirthday > (SELECT MAX(Sbirthday)
+                   FROM Student
+                   WHERE Smajor = 'CS')
+  AND Smajor = 'CS';
+
+-- Example 3.62
+SELECT Sname
+FROM Student
+WHERE EXISTS(SELECT *
+             FROM SC
+             WHERE Sno = Student.Sno
+               AND Cno = '810001');
+
+-- Example 3.63
+SELECT Sname
+FROM Student
+WHERE NOT EXISTS(SELECT *
+                 FROM SC
+                 WHERE SC.Sno = Student.Sno
+                   AND Cno = '81001');
+
+SELECT Sno, Sname, Smajor
+FROM Student S1
+WHERE EXISTS(SELECT *
+             FROM Student S2
+             WHERE S2.Smajor = S1.Smajor
+               AND S2.Sname = '刘晨');
+
+-- Example 3.64
+SELECT Sname
+FROM Student
+WHERE NOT EXISTS(SELECT *
+                 FROM Course
+                 WHERE NOT EXISTS(SELECT *
+                                  FROM SC
+                                  WHERE SC.Sno = Student.Sno
+                                    AND Cno = Course.Cno));
+-- Example 3.65
+SELECT Sno
+FROM Student
+WHERE NOT EXISTS(SELECT *
+                 FROM SC SCX
+                 WHERE SCX.Sno = '2018002'
+                   AND NOT EXISTS(SELECT *
+                                  FROM SC SCY
+                                  WHERE SCY.Sno = Student.Sno
+                                    AND SCY.Cno = SCX.Cno));
+
+-- Example 3.66
+SELECT *
+FROM Student
+WHERE Smajor = 'CS'
+UNION
+SELECT *
+FROM Student
+WHERE DATEDIFF(YEAR, Sbirthday, GETDATE()) <= 19;
+
+-- Example 3.67
+SELECT Sno
+FROM SC
+WHERE Semester = '20202'
+  AND Cno = '81001'
+UNION
+SELECT Sno
+FROM SC
+WHERE Semester = '20202'
+  AND Cno = '81002';
+
+-- Example 3.68
+SELECT *
+FROM Student
+WHERE Smajor = 'CS'
+INTERSECT
+SELECT *
+FROM Student
+WHERE DATEDIFF(YEAR, Sbirthday, GETDATE()) <= 19;
+
+-- Example 3.69
+SELECT Sno
+FROM SC
+WHERE Cno = '81001'
+INTERSECT
+SELECT Sno
+FROM SC
+WHERE Cno = '81002';
+
+-- Example 3.70
+SELECT *
+FROM Student
+WHERE Smajor = 'CS'
+EXCEPT
+SELECT *
+FROM Student
+WHERE DATEDIFF(YEAR, Sbirthday, GETDATE()) <= 19;
+
+-- Example 3.71
+INSERT INTO Student(Sno, Sname, Ssex, Sbirthday, Smajor)
+VALUES ('201200', 'JOHN', '男', '信息管理', '2005-5-22');
+
+-- Example 3.72
+INSERT INTO Student
+VALUES ('20120022', 'JNE', '男', 'CS', '2006-5-22');
+
+-- Example 3.73
+INSERT INTO SC(Sno, Cno, Grade, Semester, Teachingclass)
+VALUES ('202222', '8100', '20202', '81004-01');
+
+-- Example 3.74
+CREATE TABLE Smajor_age
+(
+    Smajor  VARCHAR(20),
+    Avg_age SMALLINT
+);
+INSERT INTO Smajor_age(Smajor, Avg_age)
+SELECT Smajor, AVG(DATEDIFF(YEAR, Sbirthday, GETDATE()))
+FROM Student
+GROUP BY Smajor;
+
+-- Example 3.75
+UPDATE Student
+SET Sbirthday = '2018-2-2'
+WHERE Sno = '20184'
+
+-- Example 3.76
+UPDATE SC
+SET Grade = Grade - 5
+WHERE Semester = '20201'
+  AND Cno = '81002';
+
+-- Example 3.77
+UPDATE SC
+SET Grade = 0
+WHERE Sno IN (SELECT Sno
+              FROM Student
+              WHERE Smajor = 'CS');
+
+-- Example 3.78
+DELETE
+FROM Student
+WHERE Sno = '2012000'
+
+-- Example 3.79
+DELETE
+FROM SC;
+
+-- Example 3.80
+DELETE
+FROM SC
+WHERE Sno IN (SELECT Sno
+              FROM Student
+              WHERE Smajor = 'CS');
