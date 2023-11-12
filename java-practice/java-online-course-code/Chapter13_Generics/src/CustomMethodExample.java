@@ -1,11 +1,3 @@
-/*
- * @FileName: null.java
- * @Description: null.java
- *
- * @Version: 1.0.0
- * @Author: zhangjiangh03
- * @Date: 2023-10-05 09:06
- */
 import org.junit.Test;
 class CustomMethod {
     public static <T> T genericMethod(T[] array) {

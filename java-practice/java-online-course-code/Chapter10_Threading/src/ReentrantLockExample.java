@@ -1,12 +1,3 @@
-/*
- * @FileName: null.java
- * @Description: null.java
- *
- * @Version: 1.0.0
- * @Author: zhangjiangh03
- * @Date: 2023-10-04 10:38
- */
-
 import java.util.concurrent.locks.ReentrantLock;
 class SaleTicketsE extends Thread {
     private static int ticket = 100;

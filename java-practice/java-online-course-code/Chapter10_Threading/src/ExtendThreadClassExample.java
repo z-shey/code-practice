@@ -1,13 +1,3 @@
-/*
- * @FileName: null.java
- * @Description: null.java
- *
- * @Version: 1.0.0
- * @Author: zhangjiangh03
- * @Date: 2023-10-03 14:56
- */
-
-
 public class ExtendThreadClassExample {
     public static void main(String[] args) {
         PintPrimeNumber primeNumber = new PintPrimeNumber();

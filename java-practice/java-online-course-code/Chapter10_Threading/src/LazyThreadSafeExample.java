@@ -1,12 +1,3 @@
-/*
- * @FileName: null.java
- * @Description: null.java
- *
- * @Version: 1.0.0
- * @Author: zhangjiangh03
- * @Date: 2023-10-04 09:39
- */
-
 class Bank {
     private static Bank instance = null;
 

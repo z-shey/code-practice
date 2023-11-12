@@ -1,14 +1,3 @@
-/*
- * @FileName: null.java
- * @Description: null.java
- *
- * @Version: 1.0.0
- * @Author: zhangjiangh03
- * @Date: 2023-10-04 08:33
- */
-
-
-// This is not safe.
 class SaleTickets implements Runnable {
     private int ticket = 100;
 

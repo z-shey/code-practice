@@ -1,14 +1,3 @@
-
-
-/*
- * @FileName: GenericsExample.java
- * @Description: GenericsExample.java
- *
- * @Version: 1.0.0
- * @Author: zhangjiangh03
- * @Date: 2023-10-03 20:24
- */
-
 import org.junit.Test;
 
 import java.util.Comparator;

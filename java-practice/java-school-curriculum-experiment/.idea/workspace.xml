@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0ea3617-f2a4-4e9f-8477-cd3e51e74755" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+    <list default="true" id="073b03d0-46d1-4050-9841-fb3c2231bd20" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../java-online-course-code/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-online-course-code/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/ClerkConsumerProducerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/ClerkConsumerProducerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/EvenSumExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/EvenSumExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/ExtendThreadClassExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/ExtendThreadClassExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/ImplementsRunnableExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/ImplementsRunnableExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/LazyThreadSafeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/LazyThreadSafeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/PrintNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/PrintNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/ReentrantLockExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/ReentrantLockExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/ThreadSynchronizedExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/ThreadSynchronizedExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter13_Generics/Chapter13_Generics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter13_Generics/Chapter13_Generics.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter13_Generics/src/CustomClassGenericsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter13_Generics/src/CustomClassGenericsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter13_Generics/src/CustomMethodExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter13_Generics/src/CustomMethodExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter13_Generics/src/GenericsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter13_Generics/src/GenericsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/Chapter15_IOStream.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/Chapter15_IOStream.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/BufferedReadWriteExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/BufferedReadWriteExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/EncodingConversionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/EncodingConversionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/FileReaderWriterExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/FileReaderWriterExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/FileReaderWriterExample_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/FileReaderWriterExample_A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/FileStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/FileStreamExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/ObjectStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/ObjectStreamExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-online-course-code/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sql-practice/DataGripWorkSpace/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sql-practice/DataGripWorkSpace/.idea/dataSources.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,13 +36,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
-  <component name="ProjectId" id="2Xv1KPv4qzDCE3wupt7FxHpchDi" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2Y4GrQdmuwcHOouGZH9WTDZhAmP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,51 +50,32 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "21",
-    "last_opened_file_path": "D:/Code Space/Ordinary Repository/code-practice/java-practice/java-school-curriculum-experiment/Experiment_Extend/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "D:/Code Space/Ordinary Repository/code-practice/java-practice/java-school-curriculum-experiment/Experiment_Extend/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.sourceCode",
+    "last_opened_file_path": "D:/Code Space/Ordinary Repository/code-practice/java-practice/java-school-curriculum-experiment/Experiment_Extend",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "fileTemplates",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code Space\Ordinary Repository\code-practice\java-practice\java-school-curriculum-experiment\Experiment_Extend\src" />
-      <recent name="D:\Code Space\Ordinary Repository\code-practice\java-practice\java-school-curriculum-experiment\experiment_06\src" />
-      <recent name="D:\Code Space\Ordinary Repository\code-practice\java-practice\java-school-curriculum-experiment\experiment_05\src" />
-      <recent name="D:\Code Space\Ordinary Repository\code-practice\java-practice\java-school-curriculum-experiment\experiment_04\src" />
-      <recent name="D:\Code Space\Ordinary Repository\code-practice\java-practice\java-school-curriculum-experiment\experiment_03\src" />
+      <recent name="D:\Code Space\Ordinary Repository\code-practice\java-practice\java-school-curriculum-experiment" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f0ea3617-f2a4-4e9f-8477-cd3e51e74755" name="Changes" comment="" />
-      <created>1699494675709</created>
+      <changelist id="073b03d0-46d1-4050-9841-fb3c2231bd20" name="Changes" comment="" />
+      <created>1699777636720</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1699494675709</updated>
-      <workItem from="1699494677056" duration="17000" />
-      <workItem from="1699494775061" duration="399000" />
+      <updated>1699777636720</updated>
+      <workItem from="1699777637716" duration="206000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
