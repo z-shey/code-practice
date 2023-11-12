@@ -334,7 +334,7 @@ WHERE Student.Sno = SC.Sno
 
 -- Example 3.57
 SELECT Smajor
-From Student
+FROM Student
 WHERE Sname = '刘晨';
 
 SELECT Sno, Sname, Smajor
@@ -568,3 +568,124 @@ FROM SC
 WHERE Sno IN (SELECT Sno
               FROM Student
               WHERE Smajor = 'CS');
+
+-- Example 3.81
+INSERT INTO SC(sno, cno, grade, semester, teachingclass)
+VALUES ('2020', '81002', NULL, '2011', NULL)
+
+-- Example 3.82
+UPDATE Student
+SET Smajor = NULL
+WHERE Sno = '201800';
+
+-- Example 3.83
+SELECT *
+FROM Student
+WHERE Sname IS NULL
+   OR Ssex IS NULL
+   OR Sbirthday IS NULL
+   OR Smajor IS NULL;
+
+-- Example 3.84
+SELECT Sno
+FROM SC
+WHERE Grade < 60
+  AND Cno = '81001';
+
+-- Example 3.85
+SELECT Sno
+FROM SC
+WHERE Grade < 60
+  AND Cno = '81001'
+UNION
+SELECT sno
+FROM SC
+WHERE Grade IS NULL
+  AND Cno = '81001';
+
+-- Example 3.86
+CREATE VIEW IS_Student
+AS
+SELECT Sno, Sname, Ssex, Sbirthday, Smajor
+FROM Student
+WHERE Smajor = '信息管理';
+
+-- Example 3.87
+CREATE VIEW IS_Student
+AS
+SELECT Sno, Sname, Ssex, Sbirthday, Smajor
+FROM Student
+WHERE Smajor = '信息管理'
+WITH CHECK OPTION;
+
+-- Example 3.88
+CREATE VIEW IS_C1(Sno, Sname, Grade)
+AS
+SELECT Student.Sno, Sname, Grade
+FROM Student,
+     SC
+WHERE Smajor = '信息管理'
+  AND Student.Sno = SC.Sno
+  AND SC.Cno = '81001';
+
+-- Example 3.89
+CREATE VIEW IS_C2
+AS
+SELECT Sno, Sname, Grade
+FROM IS_C1
+WHERE Grade >= 90;
+
+-- Example 3.90
+CREATE VIEW S_AGE(Sno, Sname, Sage)
+AS
+SELECT Sno, Sname, DATEDIFF(YEAR, Sbirthday, GETDATE())
+FROM Student;
+
+-- Example 3.91
+CREATE VIEW S_GradeAVG(Son, Gavg)
+AS
+SELECT Sno, AVG(Grade)
+FROM SC
+GROUP BY Sno;
+
+-- Example 3.92
+CREATE VIEW F_Student(Fsno, Fname, Fsex, Fbirthday, Fmajor)
+AS
+SELECT *
+FROM Student
+WHERE Ssex = '女';
+
+-- Example 3.93
+DROP VIEW S_AGE;
+DROP VIEW IS_C1;
+
+-- Example 3.94
+SELECT Sno, Sbirthday
+FROM IS_Student
+WHERE DATEDIFF(YEAR, Sbirthday, GETDATE()) <= 20;
+
+-- Example 3.95
+SELECT IS_Student.Sno, Sname
+FROM IS_Student,
+     SC
+WHERE IS_Student.Sno = SC.Sno
+  AND SC.Cno = '81001';
+
+-- Example 3.96
+SELECT *
+FROM S_GradeAVG
+WHERE Gavg >= 90;
+
+-- Example 3.97
+UPDATE IS_Student
+SET Sname = '刘琦'
+WHERE Sno = '20180005';
+
+-- Example 3.98
+INSERT INTO IS_Student
+VALUES ('201848', '赵赵', '男', '2001-7-19', '信息管理');
+
+-- Example 3.99
+DELETE
+FROM IS_Student
+WHERE Sno = '20180207';
