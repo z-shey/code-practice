@@ -1,44 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="073b03d0-46d1-4050-9841-fb3c2231bd20" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/ClerkConsumerProducerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/ClerkConsumerProducerExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/EvenSumExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/EvenSumExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/ExtendThreadClassExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/ExtendThreadClassExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/ImplementsRunnableExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/ImplementsRunnableExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/LazyThreadSafeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/LazyThreadSafeExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/PrintNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/PrintNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/ReentrantLockExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/ReentrantLockExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/ThreadSynchronizedExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/src/ThreadSynchronizedExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter13_Generics/Chapter13_Generics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter13_Generics/Chapter13_Generics.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter13_Generics/src/CustomClassGenericsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter13_Generics/src/CustomClassGenericsExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter13_Generics/src/CustomMethodExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter13_Generics/src/CustomMethodExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter13_Generics/src/GenericsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter13_Generics/src/GenericsExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/Chapter15_IOStream.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/Chapter15_IOStream.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/BufferedReadWriteExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/BufferedReadWriteExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/EncodingConversionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/EncodingConversionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/FileReaderWriterExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/FileReaderWriterExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/FileReaderWriterExample_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/FileReaderWriterExample_A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/FileStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/FileStreamExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/ObjectStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/ObjectStreamExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/src/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../css-practice/.idea/css-practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cargo-management-system/cargo-management-system.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experiment_07/Experiment_07.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sql-practice/DB_CourseSelectionClass.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../sql-practice/DB_CourseSelectionClass.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../sql-practice/DataGripWorkSpace/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sql-practice/DataGripWorkSpace/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sql-practice/DataGripWorkSpace/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sql-practice/DataGripWorkSpace/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sql-practice/课本3.1-3.99例题.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../sql-practice/课本3.1-3.99例题.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2Y4GrQdmuwcHOouGZH9WTDZhAmP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,11 +40,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "21",
     "last_opened_file_path": "D:/Code Space/Ordinary Repository/code-practice/java-practice/java-school-curriculum-experiment/Experiment_Extend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -63,6 +67,64 @@
       <recent name="D:\Code Space\Ordinary Repository\code-practice\java-practice\java-school-curriculum-experiment" />
     </key>
   </component>
+  <component name="RunManager" selected="JUnit.Q6.testDiv">
+    <configuration name="Q4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q4" />
+      <module name="Experiment_07" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q6.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Experiment_07" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Q6" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q6.testDiv" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Experiment_07" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Q6" />
+      <option name="METHOD_NAME" value="testDiv" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q6.testMul" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Experiment_07" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Q6" />
+      <option name="METHOD_NAME" value="testMul" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q6.testSub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Experiment_07" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Q6" />
+      <option name="METHOD_NAME" value="testSub" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Q6.testDiv" />
+        <item itemvalue="JUnit.Q6.testMul" />
+        <item itemvalue="JUnit.Q6.testSub" />
+        <item itemvalue="JUnit.Q6.testAdd" />
+        <item itemvalue="Application.Q4" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,6 +134,8 @@
       <option name="presentableId" value="Default" />
       <updated>1699777636720</updated>
       <workItem from="1699777637716" duration="206000" />
+      <workItem from="1700905769581" duration="8000" />
+      <workItem from="1700991536834" duration="1231000" />
     </task>
     <servers />
   </component>

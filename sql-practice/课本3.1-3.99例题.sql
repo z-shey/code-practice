@@ -1,5 +1,5 @@
-CREATE DATABASE Homework;
-USE Homework;
+CREATE DATABASE CourseSelection_assignment;
+USE CourseSelection_assignment;
 
 -- Example 3.1
 CREATE SCHEMA "S-C-SC" AUTHORIZATION db_accessadmin;
@@ -24,27 +24,27 @@ DROP TABLE Tab1
 DROP SCHEMA Test;
 
 -- Example 3.5
-CREATE TABLE Student
+CREATE TABLE [S-T].Student
 (
-    Sno       CHAR(8) PRIMARY KEY,
-    Sname     VARCHAR(20) UNIQUE,
-    Ssex      CHAR(6),
-    Sbirthday DATE,
-    Smajor    VARCHAR(40)
+    Sno        CHAR(8) PRIMARY KEY,
+    Sname      VARCHAR(20) UNIQUE,
+    Ssex       CHAR(6),
+    Sbirthdate DATE,
+    Smajor     VARCHAR(40)
 )
 
 -- Example 3.6
-CREATE TABLE Course
+CREATE TABLE [S-T].Course
 (
     Cno     CHAR(5) PRIMARY KEY,
     Cname   VARCHAR(40) NOT NULL,
     Ccredit SMALLINT,
     Cpno    CHAR(5),
-    FOREIGN KEY (Cpno) REFERENCES Course (Cno)
+    FOREIGN KEY (Cpno) REFERENCES [S-T].Course (Cno)
 )
 
 -- Example 3.7
-CREATE TABLE SC
+CREATE TABLE [S-T].SC
 (
     Sno           CHAR(8),
     Cno           CHAR(5),
@@ -52,166 +52,172 @@ CREATE TABLE SC
     Semester      CHAR(5),
     Teachingclass CHAR(8),
     PRIMARY KEY (Sno, Cno),
-    FOREIGN KEY (Sno) REFERENCES Student (Sno),
-    FOREIGN KEY (Cno) REFERENCES Course (Cno)
+    FOREIGN KEY (Sno) REFERENCES [S-T].Student (Sno),
+    FOREIGN KEY (Cno) REFERENCES [S-T].Course (Cno)
 )
 
 -- Example 3.8
-ALTER TABLE Student
+ALTER TABLE [S-T].Student
     ADD Semail VARCHAR(30);
 
 -- Example 3.9
-ALTER TABLE Student
-    ALTER COLUMN Sbirthday VARCHAR(20);
+ALTER TABLE [S-T].Student
+    ALTER COLUMN Sbirthdate VARCHAR(20);
+
+ALTER TABLE [S-T].Student
+    ALTER COLUMN Sbirthdate DATE;
+
+EXEC sp_columns 'Student';
 
 -- Example 3.10
-ALTER TABLE Course
+ALTER TABLE [S-T].Course
     ADD UNIQUE (Cname);
 
 -- Example 3.11
-DROP TABLE Student;
+DROP TABLE [S-T].Student;
 
 -- Example 3.12
 CREATE VIEW CS_Student
 AS
-SELECT Sno, Sname, Ssex, Sbirthday, Smajor
-FROM Student
+SELECT Sno, Sname, Ssex, Sbirthdate, Smajor
+FROM [S-T].Student
 WHERE Smajor = '计算机科学与技术';
 
-DROP TABLE Student;
--- DROP TABLE Student;
+DROP TABLE [S-T].Student;
 
 SELECT *
 FROM CS_Student;
 
 -- Example 3.13
-CREATE UNIQUE INDEX Idx_StudentSname ON Student (Sname);
-CREATE UNIQUE INDEX Idx_CourseCname ON Course (Cname);
-CREATE UNIQUE INDEX Idx_SCCno ON SC (Sno ASC, Cno DESC);
+CREATE UNIQUE INDEX Idx_StudentSname ON [S-T].Student (Sname);
+CREATE UNIQUE INDEX Idx_CourseCname ON [S-T].Course (Cname);
+CREATE UNIQUE INDEX Idx_SCCno ON [S-T].SC (Sno ASC, Cno DESC);
 
 -- Example 3.14
 -- ALTER INDEX Idx_SCCno RENAME TO Idx_SCSnoCno;
-EXEC sp_rename 'dbo.SC.Idx_SCCno', 'Idx_SCSnoCno', 'INDEX';
+EXEC sp_rename 'S-T.SC.Idx_SCCno', 'Idx_SCSnoCno', 'INDEX';
 
 -- Example 3.15
-DROP INDEX Idx_StudentSname;
+DROP INDEX [S-T].Idx_StudentSname;
 
 -- Example 3.16
 SELECT Sno, Sname
-FROM Student;
+FROM [S-T].Student;
 
 -- Example 3.17
 SELECT Sname, Sno, Smajor
-FROM Student;
+FROM [S-T].Student;
 
 -- Example 3.18
 SELECT *
-FROM Student;
--- SELECT Sno, Sname, Ssex, Sbirthdate, Smajor FROM Student
+FROM [S-T].Student;
+
 
 -- Example 3.19
--- SELECT Sname, (EXTRACT(2023-10-22)) - EXTRACT(2003-12-5)
+-- SELECT Sname, (EXTRACT(2023-10-22) - EXTRACT(2003-12-5))
 -- FROM Student;
-SELECT Sname, DATEDIFF(YEAR, Sbirthday, GETDATE()) AS Age
-FROM Student;
+SELECT Sname, DATEDIFF(YEAR, Sbirthdate, GETDATE()) AS Age
+FROM [S-T].Student;
 
 -- Example 3.20
-SELECT Sname, 'DATA OF BIRTH: ', Sbirthday, Smajor
-FROM Student;
+SELECT Sname, 'DATA OF BIRTH: ', Sbirthdate, Smajor
+FROM [S-T].Student;
 
 -- Example 3.21
 SELECT Sno
-FROM SC;
+FROM [S-T].SC;
+
 SELECT DISTINCT Sno
-FROM Student;
+FROM [S-T].SC;
+
 SELECT ALL Sno
-FROM Student;
+FROM [S-T].SC;
 
 -- Example 3.22
 SELECT Sname
-FROM Student
-WHERE Smajor = 'CS'
+FROM [S-T].Student
+WHERE Smajor = '计算机科学与技术'
 
 -- Example 3.23
 SELECT Sname, Ssex
-FROM Student
-WHERE YEAR(Sbirthday) <= 2000;
+FROM [S-T].Student
+WHERE YEAR(Sbirthdate) >= 2000;
 
 -- Example 3.24
 SELECT DISTINCT Sno
-FROM SC
+FROM [S-T].SC
 WHERE Grade < 60;
 
 -- Example 3.25
-SELECT Sname, Sbirthday, Smajor
-FROM Student
-WHERE DATEDIFF(YEAR, Sbirthday, GETDATE()) BETWEEN 20 AND 30;
+SELECT Sname, Sbirthdate, Smajor
+FROM [S-T].Student
+WHERE DATEDIFF(YEAR, Sbirthdate, GETDATE()) BETWEEN 20 AND 23;
 
 -- Example 3.26
-SELECT Sname, Sbirthday, Smajor
-FROM Student
-WHERE DATEDIFF(YEAR, Sbirthday, GETDATE()) NOT BETWEEN 20 AND 23;
+SELECT Sname, Sbirthdate, Smajor
+FROM [S-T].Student
+WHERE DATEDIFF(YEAR, Sbirthdate, GETDATE()) NOT BETWEEN 20 AND 23;
 
 -- Example 3.27
 SELECT Sname, Ssex
-FROM Student
-WHERE Smajor IN ('CS', 'MA');
+FROM [S-T].Student
+WHERE Smajor IN ('计算机科学与技术', '信息安全');
 
 -- Example 3.28
 SELECT Sname, Ssex
-FROM Student
-WHERE Smajor NOT IN ('JAVA', 'CPP');
+FROM [S-T].Student
+WHERE Smajor NOT IN ('计算机科学与技术', '信息安全');
 
 -- Example 3.29
 SELECT *
-FROM Student
-WHERE Sno LIKE '202210';
+FROM [S-T].Student
+WHERE Sno LIKE '20180003';
 
 -- Example 3.30
 SELECT Sname, Sno, Ssex
-FROM Student
+FROM [S-T].Student
 WHERE Sname LIKE '刘%';
 
 -- Example 3.31
 SELECT Sno, Sname
-FROM Student
+FROM [S-T].Student
 WHERE Sno LIKE '2018%'
 
 -- Example 3.32
 SELECT Cname, Cno
-FROM Course
-WHERE Cno LIKE '18__6';
+FROM [S-T].Course
+WHERE Cno LIKE '81__6';
 
 -- Example 3.33
 SELECT Sname, Sno, Ssex
-FROM Student
+FROM [S-T].Student
 WHERE Sname NOT LIKE '刘%';
 
 -- Example 3.34
 SELECT Cno, Ccredit
-FROM Course
+FROM [S-T].Course
 WHERE Cname LIKE 'DB\_Design' ESCAPE '\';
 
 -- Example 3.35
 SELECT *
-FROM Course
+FROM [S-T].Course
 WHERE Cname LIKE 'DB\_%i__' ESCAPE '\';
 
 -- Example 3.36
 SELECT Sno, Cno
-FROM SC
+FROM [S-T].SC
 WHERE Grade IS NULL;
 
 -- Example 3.37
 SELECT Sno, Cno
-FROM SC
+FROM [S-T].SC
 WHERE Grade IS NOT NULL;
 
 -- Example 3.38
-SELECT Sname, Ssex
-FROM Student
-WHERE Smajor = 'CS'
-   OR Smajor = 'WEB';
+SELECT Sno, Sname, Ssex
+FROM [S-T].Student
+WHERE Smajor = '计算机科学与技术'
+  AND YEAR(Sbirthdate) >= 2000;
 
 -- Example 3.39
 -- SELECT Sno, Grade
@@ -219,59 +225,57 @@ WHERE Smajor = 'CS'
 -- WHERE Cno = '8013'
 -- GROUP BY Grade DESC;
 SELECT Sno, Grade
-FROM SC
-WHERE Cno = '8013'
-GROUP BY Sno, Grade
+FROM [S-T].SC
+WHERE Cno = '81003'
 ORDER BY Grade DESC;
 
 -- Example 3.40
 SELECT *
-FROM SC
-GROUP BY Cno, Grade, Sno, Semester, Teachingclass
+FROM [S-T].SC
 ORDER BY Cno, Grade DESC;
 
 -- Example 3.41
 SELECT COUNT(*)
-FROM Student;
+FROM [S-T].Student;
 
 -- Example 3.42
 SELECT COUNT(DISTINCT Sno)
-FROM SC;
+FROM [S-T].SC;
 
 -- Example 3.43
 SELECT AVG(Grade)
-FROM SC
-WHERE Cno = '4050';
+FROM [S-T].SC
+WHERE Cno = '81001';
 
 -- Example 3.44
 SELECT MAX(Grade)
-FROM SC
-WHERE Cno = '4155';
+FROM [S-T].SC
+WHERE Cno = '81001';
 
 -- Example 3.45
-SELECT SUM(Ccredit)
-FROM SC,
-     Course
-WHERE Sno = '202000'
+SELECT SUM(Grade)
+FROM [S-T].SC,
+     [S-T].Course
+WHERE Sno = '20180003'
   AND SC.Cno = Course.Cno;
 
 -- Example 3.46
 SELECT Cno, COUNT(Sno)
-FROM SC
+FROM [S-T].SC
 GROUP BY Cno;
 
 -- Example 3.47
 SELECT Sno
-FROM SC
+FROM [S-T].SC
 WHERE Semester = '20192'
 GROUP BY Sno
-HAVING COUNT(*) > 10;
+HAVING COUNT(*) >= 1;
 
 -- Example 3.48
 SELECT Sno, AVG(Grade)
-FROM SC
+FROM [S-T].SC
 GROUP BY Sno
-HAVING AVG(Grade) >= 90;
+HAVING AVG(Grade) >= 80;
 
 -- Example 3.49
 -- SELECT Sno
@@ -280,9 +284,10 @@ HAVING AVG(Grade) >= 90;
 -- ORDER BY Grade DESC
 -- LIMIT 10;
 SELECT TOP 10 Sno
-FROM SC
-         INNER JOIN Course ON SC.Cno = Course.Cno
-WHERE Course.Cname = 'DATABASE'
+FROM [S-T].SC,
+     [S-T].Course
+WHERE Course.Cname = '数据库理论'
+  AND SC.Cno = Course.Cno
 ORDER BY Grade DESC;
 
 -- Example 3.50
@@ -292,400 +297,477 @@ ORDER BY Grade DESC;
 -- ORDER BY AVG(Grade) DESC
 -- LIMIT 5 OFFSET 2;
 SELECT Sno, AVG(Grade)
-FROM SC
+FROM [S-T].SC
 GROUP BY Sno
 ORDER BY AVG(Grade) DESC
 OFFSET 2 ROWS FETCH NEXT 5 ROWS ONLY;
 
 -- Example 3.51
 SELECT Student.*, SC.*
-FROM Student,
-     SC
+FROM [S-T].Student,
+     [S-T].SC
 WHERE Student.Sno = SC.Sno;
 
 -- Example 3.52
-SELECT Student.Sno, Sname, Ssex, Sbirthday, Smajor, Cno, Grade
-FROM Student,
-     SC
+SELECT Student.Sno, Sname, Ssex, Sbirthdate, Smajor, Cno, Grade
+FROM [S-T].Student,
+     [S-T].SC
 WHERE Student.Sno = SC.Sno;
 
 -- Example 3.53
 SELECT Student.Sno, Sname
-FROM Student,
-     SC
+FROM [S-T].Student,
+     [S-T].SC
 WHERE Student.Sno = SC.Sno
-  AND SC.Cno = '05000'
+  AND SC.Cno = '81002'
   AND SC.Grade > 90;
 
 -- Example 3.54
+SELECT FIRST.Cno, SECOND.Cpno
+FROM [S-T].Course FIRST,
+     [S-T].Course SECOND
+WHERE FIRST.Cpno = SECOND.Cno
+  AND SECOND.Cpno IS NOT NULL;
 
 -- Example 3.55
-SELECT Student.Sno, Sname, Ssex, Sbirthday, Cno, Grade
-FROM Student
-         LEFT OUTER JOIN SC ON Student.Sno = SC.Sno;
+SELECT Student.Sno, Sname, Ssex, Sbirthdate, Cno, Grade
+FROM [S-T].Student
+         LEFT OUTER JOIN [S-T].SC ON Student.Sno = SC.Sno;
 
 -- Example 3.56
 SELECT Student.Sno, Sname, Cname, Grade
-FROM Student,
-     SC,
-     Course
+FROM [S-T].Student,
+     [S-T].SC,
+     [S-T].Course
 WHERE Student.Sno = SC.Sno
-  AND SC.Sno = Course.Cno;
+  AND SC.Cno = Course.Cno;
 
 -- Example 3.57
-SELECT Smajor
-FROM Student
-WHERE Sname = '刘晨';
-
 SELECT Sno, Sname, Smajor
-FROM Student
-WHERE Smajor = 'CS';
-
-SELECT Sno, Sname, Smajor
-FROM Student
+FROM [S-T].Student
 WHERE Smajor IN (SELECT Smajor
-                 FROM Student
+                 FROM [S-T].Student
                  WHERE Sname = '刘晨');
-
-SELECT S1.Sno, S2.Sname, S1.Smajor
-FROM Student S1,
-     Student S2
-WHERE S1.Smajor = S2.Smajor
-  AND S2.Sname = '刘晨';
 
 
 -- Example 3.58
 SELECT Sno, Sname
-FROM Student
+FROM [S-T].Student
 WHERE Sno IN (SELECT Sno
-              FROM SC
+              FROM [S-T].SC
               WHERE Cno IN (SELECT Cno
-                            FROM Course
-                            WHERE Cname = '信息系统概论'));
+                            FROM [S-T].Course
+                            WHERE Cname = '数据库理论'));
 
-SELECT Student.Sno Sname
-FROM Student,
-     SC,
-     Course
-WHERE Student.Sno = SC.Sno
-  AND SC.Cno = Course.Cno
-  AND Course.Cname = '信息系统概论';
-
-SELECT Sno, Sname, Smajor
-FROM Student
-WHERE Smajor = (SELECT Smajor
-                FROM Student
-                WHERE Sname = '刘晨');
+-- SELECT Student.Sno Sname
+-- FROM Student,
+--      SC,
+--      Course
+-- WHERE Student.Sno = SC.Sno
+--   AND SC.Cno = Course.Cno
+--   AND Course.Cname = 'Big Data';
+--
+-- SELECT Sno, Sname, Smajor
+-- FROM Student
+-- WHERE Smajor = (SELECT Smajor
+--                 FROM Student
+--                 WHERE Sname = 'Tim');
 
 -- Example 3.59
 SELECT Sno, Cno
-FROM SC x
+FROM [S-T].SC x
 WHERE Grade >= (SELECT AVG(Grade)
-                FROM SC y
+                FROM [S-T].SC y
                 WHERE y.Sno = x.Sno);
-
-SELECT AVG(Grade)
-FROM SC y
-WHERE y.Sno = '202210220';
-
-SELECT Sno, Cno
-FROM SC x
-WHERE Grade >= 89.3;
+--
+-- SELECT AVG(Grade)
+-- FROM SC y
+-- WHERE y.Sno = '202210220';
+--
+-- SELECT Sno, Cno
+-- FROM SC x
+-- WHERE Grade >= 89.3;
 
 -- Example 3.60
-SELECT Sname, Sbirthday, Smajor
-FROM Student
-WHERE Sbirthday > ANY (SELECT Sbirthday
-                       FROM Student
-                       WHERE Smajor = 'CS')
-  AND Smajor <> 'CS';
+SELECT Sname, Sbirthdate, Smajor
+FROM [S-T].Student
+WHERE Sbirthdate > ANY (SELECT Sbirthdate
+                        FROM [S-T].Student
+                        WHERE Smajor = '计算机科学与技术')
+  AND Smajor <> '计算机科学与技术';
 
-SELECT Sname, Sbirthday, Smajor
-FROM Student
-WHERE Sbirthday > (SELECT MIN(Sbirthday)
-                   FROM Student
-                   WHERE Smajor = 'CS')
-  AND Smajor <> 'CS';
+-- SELECT Sname, Sbirthdate, Smajor
+-- FROM Student
+-- WHERE Sbirthdate > (SELECT MIN(Sbirthdate)
+--                     FROM Student
+--                     WHERE Smajor = 'CS')
+--   AND Smajor <> 'CS';
 
 -- Example 3.61
-SELECT Sname, Sbirthday
-FROM Student
-WHERE Sbirthday > ALL (SELECT Sbirthday
-                       FROM Student
-                       WHERE Smajor = 'CS')
-  AND Smajor <> 'CS';
+SELECT Sname, Sbirthdate
+FROM [S-T].Student
+WHERE Sbirthdate > ALL (SELECT Sbirthdate
+                        FROM [S-T].Student
+                        WHERE Smajor = '计算机科学与技术')
+  AND Smajor <> '计算机科学与技术';
 
-SELECT Sname, Sbirthday
-FROM Student
-WHERE Sbirthday > (SELECT MAX(Sbirthday)
-                   FROM Student
-                   WHERE Smajor = 'CS')
-  AND Smajor = 'CS';
+-- SELECT Sname, Sbirthdate
+-- FROM Student
+-- WHERE Sbirthdate > (SELECT MAX(Sbirthdate)
+--                     FROM Student
+--                     WHERE Smajor = 'CS')
+--   AND Smajor = 'CS';
 
 -- Example 3.62
 SELECT Sname
-FROM Student
+FROM [S-T].Student
 WHERE EXISTS(SELECT *
-             FROM SC
+             FROM [S-T].SC
              WHERE Sno = Student.Sno
-               AND Cno = '810001');
+               AND Cno = '81001');
 
 -- Example 3.63
 SELECT Sname
-FROM Student
+FROM [S-T].Student
 WHERE NOT EXISTS(SELECT *
-                 FROM SC
+                 FROM [S-T].SC
                  WHERE SC.Sno = Student.Sno
                    AND Cno = '81001');
 
-SELECT Sno, Sname, Smajor
-FROM Student S1
-WHERE EXISTS(SELECT *
-             FROM Student S2
-             WHERE S2.Smajor = S1.Smajor
-               AND S2.Sname = '刘晨');
+-- SELECT Sno, Sname, Smajor
+-- FROM Student S1
+-- WHERE EXISTS(SELECT *
+--              FROM Student S2
+--              WHERE S2.Smajor = S1.Smajor
+--                AND S2.Sname = '刘晨');
 
 -- Example 3.64
 SELECT Sname
-FROM Student
+FROM [S-T].Student
 WHERE NOT EXISTS(SELECT *
-                 FROM Course
+                 FROM [S-T].Course
                  WHERE NOT EXISTS(SELECT *
-                                  FROM SC
-                                  WHERE SC.Sno = Student.Sno
+                                  FROM [S-T].SC
+                                  WHERE Sno = Student.Sno
                                     AND Cno = Course.Cno));
+
+
 -- Example 3.65
 SELECT Sno
-FROM Student
+FROM [S-T].Student
 WHERE NOT EXISTS(SELECT *
-                 FROM SC SCX
-                 WHERE SCX.Sno = '2018002'
+                 FROM [S-T].SC SCX
+                 WHERE SCX.Sno = '20180002'
                    AND NOT EXISTS(SELECT *
-                                  FROM SC SCY
+                                  FROM [S-T].SC SCY
                                   WHERE SCY.Sno = Student.Sno
                                     AND SCY.Cno = SCX.Cno));
 
 -- Example 3.66
 SELECT *
-FROM Student
-WHERE Smajor = 'CS'
+FROM [S-T].Student
+WHERE Smajor = '计算机科学与技术'
 UNION
 SELECT *
-FROM Student
-WHERE DATEDIFF(YEAR, Sbirthday, GETDATE()) <= 19;
+FROM [S-T].Student
+WHERE DATEDIFF(YEAR, Sbirthdate, GETDATE()) <= 19;
 
 -- Example 3.67
 SELECT Sno
-FROM SC
+FROM [S-T].SC
 WHERE Semester = '20202'
   AND Cno = '81001'
 UNION
 SELECT Sno
-FROM SC
+FROM [S-T].SC
 WHERE Semester = '20202'
   AND Cno = '81002';
 
 -- Example 3.68
 SELECT *
-FROM Student
-WHERE Smajor = 'CS'
+FROM [S-T].Student
+WHERE Smajor = '计算机科学与技术'
 INTERSECT
 SELECT *
-FROM Student
-WHERE DATEDIFF(YEAR, Sbirthday, GETDATE()) <= 19;
+FROM [S-T].Student
+WHERE DATEDIFF(YEAR, Sbirthdate, GETDATE()) <= 19;
 
 -- Example 3.69
 SELECT Sno
-FROM SC
+FROM [S-T].SC
 WHERE Cno = '81001'
 INTERSECT
 SELECT Sno
-FROM SC
+FROM [S-T].SC
 WHERE Cno = '81002';
 
 -- Example 3.70
 SELECT *
-FROM Student
-WHERE Smajor = 'CS'
+FROM [S-T].Student
+WHERE Smajor = '计算机科学与技术'
 EXCEPT
 SELECT *
-FROM Student
-WHERE DATEDIFF(YEAR, Sbirthday, GETDATE()) <= 19;
+FROM [S-T].Student
+WHERE DATEDIFF(YEAR, Sbirthdate, GETDATE()) <= 19;
 
 -- Example 3.71
-INSERT INTO Student(Sno, Sname, Ssex, Sbirthday, Smajor)
-VALUES ('201200', 'JOHN', '男', '信息管理', '2005-5-22');
+INSERT INTO [S-T].Student(Sno, Sname, Ssex, Smajor, Sbirthdate)
+VALUES ('20180009', '陈冬', '男', '信息管理与信息系统', '2000-5-22');
 
 -- Example 3.72
-INSERT INTO Student
-VALUES ('20120022', 'JNE', '男', 'CS', '2006-5-22');
+INSERT INTO [S-T].Student
+VALUES ('20180008', '张成民', '男', '计算机科学与技术', '2000-4-15');
 
 -- Example 3.73
-INSERT INTO SC(Sno, Cno, Grade, Semester, Teachingclass)
-VALUES ('202222', '8100', '20202', '81004-01');
+INSERT INTO [S-T].SC (Sno, Cno, Semester, Teachingclass)
+VALUES ('20180005', '81004', '20202', '81004-01');
 
 -- Example 3.74
-CREATE TABLE Smajor_age
+CREATE TABLE [S-T].Smajor_age
 (
-    Smajor  VARCHAR(20),
+    Smajor  VARCHAR(40),
     Avg_age SMALLINT
 );
-INSERT INTO Smajor_age(Smajor, Avg_age)
-SELECT Smajor, AVG(DATEDIFF(YEAR, Sbirthday, GETDATE()))
-FROM Student
+
+INSERT INTO [S-T].Smajor_age(Smajor, Avg_age)
+SELECT Smajor, AVG(DATEDIFF(YEAR, Sbirthdate, GETDATE()))
+FROM [S-T].Student
 GROUP BY Smajor;
 
+
+BACKUP DATABASE [CourseSelection_assignment] TO DISK = 'D:\SPACES\Backup\MyDatabase.bak' WITH FORMAT
+
+
 -- Example 3.75
-UPDATE Student
-SET Sbirthday = '2018-2-2'
-WHERE Sno = '20184'
+UPDATE [S-T].Student
+SET Sbirthdate = '2001-3-18'
+WHERE Sno = '20180001'
 
 -- Example 3.76
-UPDATE SC
+UPDATE [S-T].SC
 SET Grade = Grade - 5
 WHERE Semester = '20201'
   AND Cno = '81002';
 
 -- Example 3.77
-UPDATE SC
+UPDATE [S-T].SC
 SET Grade = 0
 WHERE Sno IN (SELECT Sno
-              FROM Student
-              WHERE Smajor = 'CS');
+              FROM [S-T].Student
+              WHERE Smajor = '计算机科学与技术');
 
 -- Example 3.78
 DELETE
-FROM Student
-WHERE Sno = '2012000'
+FROM [S-T].Student
+WHERE Sno = '20180007'
 
 -- Example 3.79
 DELETE
-FROM SC;
+FROM [S-T].SC
+WHERE 1 = 1;
 
 -- Example 3.80
 DELETE
-FROM SC
+FROM [S-T].SC
 WHERE Sno IN (SELECT Sno
-              FROM Student
-              WHERE Smajor = 'CS');
+              FROM [S-T].Student
+              WHERE Smajor = '计算机科学与技术');
 
 -- Example 3.81
-INSERT INTO SC(sno, cno, grade, semester, teachingclass)
-VALUES ('2020', '81002', NULL, '2011', NULL)
+INSERT INTO [S-T].SC (Sno, Cno, Grade, Semester, Teachingclass)
+VALUES ('20180006', '81004', NULL, '20211', NULL);
 
 -- Example 3.82
-UPDATE Student
+UPDATE [S-T].Student
 SET Smajor = NULL
-WHERE Sno = '201800';
+WHERE Sno = '20180006';
 
 -- Example 3.83
 SELECT *
-FROM Student
+FROM [S-T].Student
 WHERE Sname IS NULL
    OR Ssex IS NULL
-   OR Sbirthday IS NULL
+   OR Sbirthdate IS NULL
    OR Smajor IS NULL;
 
 -- Example 3.84
 SELECT Sno
-FROM SC
+FROM [S-T].SC
 WHERE Grade < 60
   AND Cno = '81001';
 
 -- Example 3.85
 SELECT Sno
-FROM SC
+FROM [S-T].SC
 WHERE Grade < 60
   AND Cno = '81001'
 UNION
 SELECT sno
-FROM SC
+FROM [S-T].SC
 WHERE Grade IS NULL
   AND Cno = '81001';
 
 -- Example 3.86
-CREATE VIEW IS_Student
+CREATE VIEW [S-T].IS_Student
 AS
-SELECT Sno, Sname, Ssex, Sbirthday, Smajor
-FROM Student
-WHERE Smajor = '信息管理';
+SELECT Sno, Sname, Ssex, Sbirthdate, Smajor
+FROM [S-T].Student
+WHERE Smajor = '信息管理与信息系统';
 
 -- Example 3.87
-CREATE VIEW IS_Student
+CREATE VIEW [S-T].IS_Student
 AS
-SELECT Sno, Sname, Ssex, Sbirthday, Smajor
-FROM Student
-WHERE Smajor = '信息管理'
+SELECT Sno, Sname, Ssex, Sbirthdate, Smajor
+FROM [S-T].Student
+WHERE Smajor = '信息管理与信息系统'
 WITH CHECK OPTION;
 
 -- Example 3.88
-CREATE VIEW IS_C1(Sno, Sname, Grade)
+CREATE VIEW [S-T].IS_C1(Sno, Sname, Grade)
 AS
 SELECT Student.Sno, Sname, Grade
-FROM Student,
-     SC
-WHERE Smajor = '信息管理'
+FROM [S-T].Student,
+     [S-T].SC
+WHERE Smajor = '信息管理与信息系统'
   AND Student.Sno = SC.Sno
   AND SC.Cno = '81001';
 
 -- Example 3.89
-CREATE VIEW IS_C2
+CREATE VIEW [S-T].IS_C2
 AS
 SELECT Sno, Sname, Grade
-FROM IS_C1
+FROM [S-T].IS_C1
 WHERE Grade >= 90;
 
 -- Example 3.90
-CREATE VIEW S_AGE(Sno, Sname, Sage)
+CREATE VIEW [S-T].S_AGE(Sno, Sname, Sage)
 AS
-SELECT Sno, Sname, DATEDIFF(YEAR, Sbirthday, GETDATE())
-FROM Student;
+SELECT Sno, Sname, DATEDIFF(YEAR, Sbirthdate, GETDATE())
+FROM [S-T].Student;
 
 -- Example 3.91
-CREATE VIEW S_GradeAVG(Son, Gavg)
+CREATE VIEW [S-T].S_GradeAVG(Son, Gavg)
 AS
 SELECT Sno, AVG(Grade)
-FROM SC
+FROM [S-T].SC
 GROUP BY Sno;
 
 -- Example 3.92
-CREATE VIEW F_Student(Fsno, Fname, Fsex, Fbirthday, Fmajor)
+CREATE VIEW [S-T].F_Student(Fsno, Fname, Fsex, Fbirthdate, Fmajor)
 AS
 SELECT *
-FROM Student
+FROM [S-T].Student
 WHERE Ssex = '女';
 
 -- Example 3.93
-DROP VIEW S_AGE;
-DROP VIEW IS_C1;
+DROP VIEW [S-T].S_AGE;
+DROP VIEW [S-T].IS_C1;
 
 -- Example 3.94
-SELECT Sno, Sbirthday
-FROM IS_Student
-WHERE DATEDIFF(YEAR, Sbirthday, GETDATE()) <= 20;
+SELECT Sno, Sbirthdate
+FROM [S-T].IS_Student
+WHERE DATEDIFF(YEAR, Sbirthdate, GETDATE()) <= 20;
 
 -- Example 3.95
 SELECT IS_Student.Sno, Sname
-FROM IS_Student,
-     SC
-WHERE IS_Student.Sno = SC.Sno
+FROM [S-T].IS_Student,
+     [S-T].SC
+WHERE [S-T].IS_Student.Sno = SC.Sno
   AND SC.Cno = '81001';
 
 -- Example 3.96
 SELECT *
-FROM S_GradeAVG
+FROM [S-T].S_GradeAVG
 WHERE Gavg >= 90;
 
 -- Example 3.97
-UPDATE IS_Student
-SET Sname = '刘琦'
+UPDATE [S-T].IS_Student
+SET Sname = '刘新奇'
 WHERE Sno = '20180005';
 
 -- Example 3.98
-INSERT INTO IS_Student
-VALUES ('201848', '赵赵', '男', '2001-7-19', '信息管理');
+INSERT INTO [S-T].IS_Student(Sno, Sname, Ssex, Sbirthdate, Smajor)
+VALUES ('20180207', '赵新', '男', '2001-7-19', '信息管理与信息系统');
 
 -- Example 3.99
 DELETE
-FROM IS_Student
+FROM [S-T].IS_Student
 WHERE Sno = '20180207';
+
+
+
+SELECT Sno, Grade
+FROM (SELECT Sno,
+             Grade,
+             DENSE_RANK() OVER (ORDER BY Grade DESC) AS Rank
+      FROM [S-T].SC) ranked
+WHERE Rank = 3;
+
+SELECT [S-T].Student.Sno, Sname, Grade
+FROM [S-T].SC,
+     [S-T].Student
+WHERE Grade = (SELECT MAX(Grade) FROM [S-T].SC)
+  AND SC.Sno = Student.Sno;
+
+SELECT [S-T].Student.Sno, Sname, Grade
+FROM [S-T].SC,
+     [S-T].Student
+WHERE Grade IN (SELECT MAX(Grade) FROM [S-T].SC)
+  AND SC.Sno = Student.Sno;
+
+
+SELECT [S-T].Student.Sno, Sname, Grade
+FROM [S-T].SC,
+     [S-T].Student
+WHERE Grade IN (SELECT MAX(Grade)
+                FROM [S-T].SC
+                WHERE Grade NOT IN (SELECT MAX(Grade)
+                                    FROM [S-T].SC));
+
+SELECT [S-T].Student.Sno, Sname, Grade
+FROM [S-T].SC
+         JOIN [S-T].Student ON [S-T].SC.Sno = [S-T].Student.Sno
+WHERE Grade = (SELECT MAX(Grade)
+               FROM [S-T].SC
+               WHERE Grade NOT IN (SELECT MAX(Grade)
+                                   FROM [S-T].SC));
+
+
+
+-- 面试题：求[S-T].SC.Grade中分数第N高的学生（N\=1,2,3）
+
+-- 查询排名结果
+SELECT [S-T].Student.Sno, Sname, Cname, Grade
+FROM [S-T].SC
+         JOIN [S-T].Student ON [S-T].SC.Sno = [S-T].Student.Sno
+         JOIN [S-T].Course ON [S-T].Course.Cno = [S-T].SC.Cno
+ORDER BY Grade DESC;
+
+-- 获取第N高学生
+SELECT [S-T].Student.Sno, Sname, Cname, Grade
+FROM [S-T].SC
+         JOIN [S-T].Student ON [S-T].SC.Sno = [S-T].Student.Sno
+         JOIN [S-T].Course ON [S-T].Course.Cno = [S-T].SC.Cno
+ORDER BY Grade DESC
+OFFSET 2 - 1 ROWS FETCH NEXT 1 ROWS ONLY;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
