@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Title</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="https://kit.fontawesome.com/3b6cde5636.js"></script>
+        <script src="style.js"></script>
+    </head>
+    <body>
+
+        <div class="wrapper">
+            <div class="sidebar">
+                <div class="bg_shadow">
+                </div>
+                <div class="sidebar_inner">
+                    <div class="close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="profile_info">
+                        <div class="profile_img">
+                            <img src="http://q.qlogo.cn/headimg_dl?dst_uin=3317229064&spec=640&img_type=jpg" alt="">
+                        </div>
+                        <div class="profile_data">
+                            <p class="name">用户名</p>
+                            <span>
+                                <i class="fa-solid fa-user"></i>
+                                管理员
+                            </span>
+                        </div>
+                    </div>
+
+                    <ul class="sidebar_menu">
+
+                        <li class="active">
+                            <a href="#">
+                                <div class="icon">
+                                    <i class="fa-solid fa-table-columns"></i>
+                                </div>
+                                <div class="title">
+                                    工作区
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <div class="icon">
+                                    <i class="fa-solid fa-users"></i>
+                                </div>
+                                <div class="title">
+                                    用户管理
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="icon">
+                                    <i class="fa-solid fa-box-open"></i>
+                                </div>
+                                <div class="title">
+                                    货物管理
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="icon">
+                                    <i class="fa-solid fa-house-flag"></i>
+                                </div>
+                                <div class="title">
+                                    仓库管理
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <div class="icon">
+                                    <i class="fa-solid fa-chart-pie"></i>
+                                </div>
+                                <div class="title">
+                                    报表统计
+                                </div>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <div class="logout_btn">
+                        <a href="#">登出</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="main_container">
+                <div class="navbar">
+                    <div class="hamburger">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="logo">
+                        <a href="#">货物管理系统</a>
+                        <small class="version">Beta ver 1.0.0</small>
+                    </div>
+
+                </div>
+
+
+                <div class="content">
+
+
+                    <div class="operation">
+                        <div class="count">
+                            <div class="count-content">
+                                <div class="count-line">
+                                    <label>数量统计</label>
+                                    <span>(null)</span>
+                                </div>
+                                <div class="count-line">
+                                    <label>类型统计</label>
+                                    <span>(null)</span>
+                                </div>
+                                <button type="button" class="btn add">增加</button>
+                            </div>
+                        </div>
+
+                        <div class="search">
+                            <input type="text" class="search-input" placeholder="搜索...">
+                            <button type="button" class="btn">搜索</button>
+                        </div>
+                    </div>
+
+
+
+                        <div class="info-container item">
+                            <div class="info-content">
+                                <h2>货物信息</h2>
+                                <div class="info-row">
+                                    <label>货物标题</label>
+                                    <span>电子设备</span>
+                                </div>
+                                <div class="info-row">
+                                    <label>货物类型</label>
+                                    <span>电子产品</span>
+                                </div>
+                                <div class="info-row">
+                                    <label>货物数量</label>
+                                    <span>1000</span>
+                                </div>
+                                <div class="info-row">
+                                    <label>所在仓库</label>
+                                    <span>主仓库</span>
+                                </div>
+                                <div class="info-row">
+                                    <label>货物描述</label>
+                                    <span>各种品牌的电子设备等</span>
+                                </div>
+                                <div class="button-group">
+                                    <button type="button">查看详情</button>
+                                    <button type="button">修改信息</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    <div class="info-container item">
+                        <div class="info-content">
+                            <h2>货物信息</h2>
+                            <div class="info-row">
+                                <label>货物标题</label>
+                                <span>电子设备</span>
+                            </div>
+                            <div class="info-row">
+                                <label>货物类型</label>
+                                <span>电子产品</span>
+                            </div>
+                            <div class="info-row">
+                                <label>货物数量</label>
+                                <span>1000</span>
+                            </div>
+                            <div class="info-row">
+                                <label>所在仓库</label>
+                                <span>主仓库</span>
+                            </div>
+                            <div class="info-row">
+                                <label>货物描述</label>
+                                <span>各种品牌的电子设备等</span>
+                            </div>
+                            <div class="button-group">
+                                <button type="button">查看详情</button>
+                                <button type="button">修改信息</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-container item">
+                        <div class="info-content">
+                            <h2>货物信息</h2>
+                            <div class="info-row">
+                                <label>货物标题</label>
+                                <span>电子设备</span>
+                            </div>
+                            <div class="info-row">
+                                <label>货物类型</label>
+                                <span>电子产品</span>
+                            </div>
+                            <div class="info-row">
+                                <label>货物数量</label>
+                                <span>1000</span>
+                            </div>
+                            <div class="info-row">
+                                <label>所在仓库</label>
+                                <span>主仓库</span>
+                            </div>
+                            <div class="info-row">
+                                <label>货物描述</label>
+                                <span>各种品牌的电子设备等</span>
+                            </div>
+                            <div class="button-group">
+                                <button type="button">查看详情</button>
+                                <button type="button">修改信息</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-container item">
+                        <div class="info-content">
+                            <h2>货物信息</h2>
+                            <div class="info-row">
+                                <label>货物标题</label>
+                                <span>电子设备</span>
+                            </div>
+                            <div class="info-row">
+                                <label>货物类型</label>
+                                <span>电子产品</span>
+                            </div>
+                            <div class="info-row">
+                                <label>货物数量</label>
+                                <span>1000</span>
+                            </div>
+                            <div class="info-row">
+                                <label>所在仓库</label>
+                                <span>主仓库</span>
+                            </div>
+                            <div class="info-row">
+                                <label>货物描述</label>
+                                <span>各种品牌的电子设备等</span>
+                            </div>
+                            <div class="button-group">
+                                <button type="button">查看详情</button>
+                                <button type="button">修改信息</button>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class="info-container item">
+                            <div class="info-content">
+                                <h2>货物信息</h2>
+                                <div class="info-row">
+                                    <label>货物标题</label>
+                                    <span>电子设备</span>
+                                </div>
+                                <div class="info-row">
+                                    <label>货物类型</label>
+                                    <span>电子产品</span>
+                                </div>
+                                <div class="info-row">
+                                    <label>货物数量</label>
+                                    <span>1000</span>
+                                </div>
+                                <div class="info-row">
+                                    <label>所在仓库</label>
+                                    <span>主仓库</span>
+                                </div>
+                                <div class="info-row">
+                                    <label>货物描述</label>
+                                    <span>各种品牌的电子设备等</span>
+                                </div>
+                                <div class="button-group">
+                                    <button type="button">查看详情</button>
+                                    <button type="button">修改信息</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-container item">
+                            <div class="info-content">
+                                <h2>货物信息</h2>
+                                <div class="info-row">
+                                    <label>货物标题</label>
+                                    <span>电子设备</span>
+                                </div>
+                                <div class="info-row">
+                                    <label>货物类型</label>
+                                    <span>电子产品</span>
+                                </div>
+                                <div class="info-row">
+                                    <label>货物数量</label>
+                                    <span>1000</span>
+                                </div>
+                                <div class="info-row">
+                                    <label>所在仓库</label>
+                                    <span>主仓库</span>
+                                </div>
+                                <div class="info-row">
+                                    <label>货物描述</label>
+                                    <span>各种品牌的电子设备等</span>
+                                </div>
+                                <div class="button-group">
+                                    <button type="button">查看详情</button>
+                                    <button type="button">修改信息</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </body>
+</html>

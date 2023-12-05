@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="073b03d0-46d1-4050-9841-fb3c2231bd20" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../css-practice/.idea/css-practice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cargo-management-system/cargo-management-system.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Experiment_07/Experiment_07.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sql-practice/DB_CourseSelectionClass.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../sql-practice/DB_CourseSelectionClass.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../sql-practice/DataGripWorkSpace/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sql-practice/DataGripWorkSpace/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../sql-practice/DataGripWorkSpace/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sql-practice/DataGripWorkSpace/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sql-practice/课本3.1-3.99例题.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../sql-practice/课本3.1-3.99例题.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sql-practice/课本4.1-4.19例题.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../sql-practice/课本4.1-4.19例题.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,30 +33,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "21",
-    "last_opened_file_path": "D:/Code Space/Ordinary Repository/code-practice/java-practice/java-school-curriculum-experiment/Experiment_Extend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "fileTemplates",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Code Space/Ordinary Repository/code-practice/java-practice/java-school-curriculum-experiment/Experiment_Extend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Code Space\Ordinary Repository\code-practice\java-practice\java-school-curriculum-experiment" />
@@ -136,6 +131,8 @@
       <workItem from="1699777637716" duration="206000" />
       <workItem from="1700905769581" duration="8000" />
       <workItem from="1700991536834" duration="1231000" />
+      <workItem from="1701150428747" duration="34000" />
+      <workItem from="1701216802975" duration="6000" />
     </task>
     <servers />
   </component>

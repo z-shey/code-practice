@@ -25,7 +25,6 @@ CREATE TABLE [S-T].Course
     cname   CHAR(40) NOT NULL,
     cpno    CHAR(4),
     ccredit SMALLINT,
-    cpno    SMALLINT,
     FOREIGN KEY (cpno) REFERENCES [S-T].Course (cno),
 );
 

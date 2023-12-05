@@ -115,7 +115,6 @@ public class LoginPage extends JFrame {
             }
         });
 
-
         // 忘记密码按钮的事件监听器
         forgetButton.addActionListener(new ActionListener() {
             @Override
