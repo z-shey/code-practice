@@ -28,7 +28,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 5,
+   "execution_count": 1,
    "outputs": [
     {
      "name": "stdout",
@@ -45,15 +45,15 @@
    "metadata": {
     "collapsed": true,
     "ExecuteTime": {
-     "end_time": "2023-12-09T15:53:41.019880500Z",
-     "start_time": "2023-12-09T15:53:41.004406400Z"
+     "end_time": "2023-12-09T15:53:07.853395200Z",
+     "start_time": "2023-12-09T15:53:07.835564100Z"
     }
    },
    "id": "initial_id"
   },
   {
    "cell_type": "code",
-   "execution_count": 6,
+   "execution_count": 2,
    "outputs": [
     {
      "name": "stdout",
@@ -70,8 +70,8 @@
    "metadata": {
     "collapsed": false,
     "ExecuteTime": {
-     "end_time": "2023-12-09T15:53:41.049390600Z",
-     "start_time": "2023-12-09T15:53:41.024245200Z"
+     "end_time": "2023-12-09T15:53:07.870308700Z",
+     "start_time": "2023-12-09T15:53:07.856436100Z"
     }
    },
    "id": "96c6e6a67262044c"
@@ -109,7 +109,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 7,
+   "execution_count": 3,
    "outputs": [
     {
      "name": "stdout",
@@ -117,7 +117,7 @@
      "text": [
       "True\n",
       "False\n",
-      "3085447789168 3085447789744\n",
+      "3085449013968 3085449013328\n",
       "<class 'int'> <class 'int'>\n"
      ]
     }
@@ -136,8 +136,8 @@
    "metadata": {
     "collapsed": false,
     "ExecuteTime": {
-     "end_time": "2023-12-09T15:53:41.052111500Z",
-     "start_time": "2023-12-09T15:53:41.036351700Z"
+     "end_time": "2023-12-09T15:53:07.884970200Z",
+     "start_time": "2023-12-09T15:53:07.869310500Z"
     }
    },
    "id": "841d1810248caaf8"
@@ -168,7 +168,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 8,
+   "execution_count": 4,
    "outputs": [
     {
      "name": "stdout",
@@ -185,8 +185,8 @@
    "metadata": {
     "collapsed": false,
     "ExecuteTime": {
-     "end_time": "2023-12-09T15:53:41.099679200Z",
-     "start_time": "2023-12-09T15:53:41.049390600Z"
+     "end_time": "2023-12-09T15:53:07.937166300Z",
+     "start_time": "2023-12-09T15:53:07.885966700Z"
     }
    },
    "id": "a95dcc5d1dfc0d11"

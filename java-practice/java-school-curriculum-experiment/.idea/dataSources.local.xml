@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="IU-233.11799.241">
-    <data-source name="@192.168.136.141" uuid="14ca14b7-bd45-4997-a4be-386ac4bfe787">
+    <data-source name="@192.168.136.144" uuid="14ca14b7-bd45-4997-a4be-386ac4bfe787">
       <database-info product="Microsoft SQL Server" version="12.00.2000" jdbc-version="3.0" driver-name="jTDS Type 4 JDBC Driver for MS SQL Server and Sybase" driver-version="1.3.1" dbms="MSSQL" exact-version="12.0.2000" exact-driver-version="1.3">
         <extra-name-characters>$#@</extra-name-characters>
         <identifier-quote-string>&quot;</identifier-quote-string>
@@ -17,6 +17,9 @@
             </node>
             <node kind="database" qname="Algorithm_SQL">
               <node kind="schema" qname="ALG" />
+            </node>
+            <node kind="database" qname="AlTest">
+              <node kind="schema" qname="dbo" />
             </node>
           </node>
         </introspection-scope>

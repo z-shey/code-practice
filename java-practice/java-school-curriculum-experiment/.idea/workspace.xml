@@ -5,408 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="073b03d0-46d1-4050-9841-fb3c2231bd20" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../cargo-management-system/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-management-system/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-management-system/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-management-system/.idea/libraries/sqlite_jdbc_3_43_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-management-system/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-management-system/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-management-system/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-management-system/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-management-system/cargo-management-system.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-management-system/data/data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-management-system/identifier.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-management-system/src/DatabaseHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-management-system/src/Index.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-management-system/src/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-management-system/src/MainPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-management-system/src/UserInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-management-system/untitled/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-management-system/untitled/untitled.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-system/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-system/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-system/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-system/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-system/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-system/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-system/src/main/java/com/shey/cargosystem/CargoSystemApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-system/src/main/java/com/shey/cargosystem/controller/RedirectController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-system/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-system/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-system/src/test/java/com/shey/cargosystem/CargoSystemApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-system01/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-system01/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-system01/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-system01/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-system01/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-system01/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-system01/src/main/java/com/shey/cargosystem/CargoSystemApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-system01/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cargo-system01/src/test/java/com/shey/cargosystem/CargoSystemApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/Chapter10_Threading.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter10_Threading/Chapter10_Threading.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter13_Generics/Chapter13_Generics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter13_Generics/Chapter13_Generics.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/Chapter15_IOStream.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter15_IOStream/Chapter15_IOStream.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/Chapter16_Net/Chapter16_Net.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/Chapter16_Net/Chapter16_Net.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-online-course-code/java-online-course-code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-online-course-code/java-online-course-code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/14ca14b7-bd45-4997-a4be-386ac4bfe787.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/14ca14b7-bd45-4997-a4be-386ac4bfe787.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/14ca14b7-bd45-4997-a4be-386ac4bfe787/storage_v2/_src_/database/Algorithm_SQL.voXe8w/schema/ALG.fP0AAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/14ca14b7-bd45-4997-a4be-386ac4bfe787/storage_v2/_src_/database/Algorithm_SQL.voXe8w/schema/ALG.fP0AAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/14ca14b7-bd45-4997-a4be-386ac4bfe787/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/14ca14b7-bd45-4997-a4be-386ac4bfe787/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/14ca14b7-bd45-4997-a4be-386ac4bfe787/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/14ca14b7-bd45-4997-a4be-386ac4bfe787/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Experiment_03/Experiment_03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Experiment_03/Experiment_03.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Experiment_04/Experiment_04.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Experiment_04/Experiment_04.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/artifacts/Demo01_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/artifacts/Demo02_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/artifacts/Demo03_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/artifacts/Demo04_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/artifacts/Demo05_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/artifacts/Demo06_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/artifacts/Demo07_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources/98ca3825-f4b0-4e20-a67a-6a0ed3c2cf86.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources/98ca3825-f4b0-4e20-a67a-6a0ed3c2cf86/storage_v2/_src_/schema/cargo.vOegBQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources/98ca3825-f4b0-4e20-a67a-6a0ed3c2cf86/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources/98ca3825-f4b0-4e20-a67a-6a0ed3c2cf86/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources/98ca3825-f4b0-4e20-a67a-6a0ed3c2cf86/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources/98ca3825-f4b0-4e20-a67a-6a0ed3c2cf86/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources/98ca3825-f4b0-4e20-a67a-6a0ed3c2cf86/storage_v2/_src_/schema/test.kkQ2AA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources/b2015586-cc3c-44aa-8b53-ed0384d79b9a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources/b2015586-cc3c-44aa-8b53-ed0384d79b9a/storage_v2/_src_/database/Algorithm_SQL.voXe8w.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources/b2015586-cc3c-44aa-8b53-ed0384d79b9a/storage_v2/_src_/database/Algorithm_SQL.voXe8w/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources/b2015586-cc3c-44aa-8b53-ed0384d79b9a/storage_v2/_src_/database/Algorithm_SQL.voXe8w/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources/b2015586-cc3c-44aa-8b53-ed0384d79b9a/storage_v2/_src_/database/CargoManagementSystem.DtwWkQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources/b2015586-cc3c-44aa-8b53-ed0384d79b9a/storage_v2/_src_/database/CargoManagementSystem.DtwWkQ/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources/b2015586-cc3c-44aa-8b53-ed0384d79b9a/storage_v2/_src_/database/CargoManagementSystem.DtwWkQ/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources/b2015586-cc3c-44aa-8b53-ed0384d79b9a/storage_v2/_src_/database/CourseSelectionClass.Z3Samg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources/b2015586-cc3c-44aa-8b53-ed0384d79b9a/storage_v2/_src_/database/CourseSelectionClass.Z3Samg/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources/b2015586-cc3c-44aa-8b53-ed0384d79b9a/storage_v2/_src_/database/CourseSelectionClass.Z3Samg/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources/b2015586-cc3c-44aa-8b53-ed0384d79b9a/storage_v2/_src_/database/CourseSelection_assignment.O9BGNg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources/b2015586-cc3c-44aa-8b53-ed0384d79b9a/storage_v2/_src_/database/CourseSelection_assignment.O9BGNg/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources/b2015586-cc3c-44aa-8b53-ed0384d79b9a/storage_v2/_src_/database/CourseSelection_assignment.O9BGNg/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources/b2015586-cc3c-44aa-8b53-ed0384d79b9a/storage_v2/_src_/database/master.YiqNvw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources/b2015586-cc3c-44aa-8b53-ed0384d79b9a/storage_v2/_src_/database/master.YiqNvw/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources/b2015586-cc3c-44aa-8b53-ed0384d79b9a/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources/b2015586-cc3c-44aa-8b53-ed0384d79b9a/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/dataSources/b2015586-cc3c-44aa-8b53-ed0384d79b9a/storage_v2/_src_/database/master.YiqNvw/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/javaweb-cargo-management-system-final-course.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/libraries/lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/libraries/lib__2_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/webContexts.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/Demo01.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/src/Login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/SuperManger.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/WEB-INF/lib/jtds-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/WEB-INF/lib/jtds-win-auth.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/footer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/header.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/static/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/static/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/static/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/static/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/static/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/static/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/static/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/static/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/static/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/static/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/static/img/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/static/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/static/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/static/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/static/js/style.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo01/web/userinfo.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/Demo02.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/src/ConnectionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/src/servlet/LoginServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/src/servlet/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/WEB-INF/lib/commons-dbcp2-2.11.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/WEB-INF/lib/commons-dbcp2-2.11.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/WEB-INF/lib/commons-dbcp2-2.11.0-test-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/WEB-INF/lib/commons-dbcp2-2.11.0-tests.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/WEB-INF/lib/commons-dbcp2-2.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/WEB-INF/lib/commons-dbutils-1.8.1-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/WEB-INF/lib/commons-dbutils-1.8.1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/WEB-INF/lib/commons-dbutils-1.8.1-test-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/WEB-INF/lib/commons-dbutils-1.8.1-tests.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/WEB-INF/lib/commons-dbutils-1.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/WEB-INF/lib/commons-pool2-2.12.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/WEB-INF/lib/commons-pool2-2.12.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/WEB-INF/lib/commons-pool2-2.12.0-test-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/WEB-INF/lib/commons-pool2-2.12.0-tests.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/WEB-INF/lib/commons-pool2-2.12.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/WEB-INF/lib/mysql-connector-java-8.0.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/footer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/static/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/static/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/static/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/static/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/static/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/static/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/static/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/static/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/static/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/static/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/static/img/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/static/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/static/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/static/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo02/web/static/js/style.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/Demo03.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/src/dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/src/servlet/LoginServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/src/util/JdbcUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/src/vo/UserBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/WEB-INF/lib/mysql-connector-java-8.0.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/footer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/static/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/static/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/static/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/static/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/static/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/static/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/static/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/static/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/static/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/static/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/static/img/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/static/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/static/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/static/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo03/web/static/js/style.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/Demo04.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/src/dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/src/dao/api/ICargoDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/src/dao/api/IUserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/src/dao/api/IWarehouseDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/src/servlet/LoginServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/src/servlet/RegisterServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/src/servlet/UserServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/src/util/DatabaseUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/src/vo/Cargo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/src/vo/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/src/vo/Warehouse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/WEB-INF/lib/mysql-connector-java-8.0.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/head-footer/footer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/head-footer/header.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/module/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/module/user-info.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/pages/ll.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/pages/user-list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/pages/user-manger.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/pages/working-area.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/static/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/static/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/static/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/static/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/static/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/static/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/static/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/static/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/static/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/static/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/static/img/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/static/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/static/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/static/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo04/web/static/js/style.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo05/Demo05.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo05/src/ExampleServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo05/src/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo05/web/WEB-INF/lib/jstl.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo05/web/WEB-INF/lib/standard.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo05/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo05/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/Demo06.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/src/com/shey/dao/CargoDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/src/com/shey/dao/CargoDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/src/com/shey/dao/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/src/com/shey/dao/UserDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/src/com/shey/entity/Cargo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/src/com/shey/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/src/com/shey/entity/Warehouse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/src/com/shey/service/CargoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/src/com/shey/service/CargoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/src/com/shey/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/src/com/shey/service/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/src/com/shey/servlet/BaseServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/src/com/shey/servlet/CargoServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/src/com/shey/servlet/UserServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/src/com/shey/servlet/loginSigner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/src/com/shey/util/DBUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/src/com/shey/util/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/WEB-INF/lib/HikariCP-5.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/WEB-INF/lib/commons-dbcp2-2.11.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/WEB-INF/lib/commons-dbcp2-2.11.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/WEB-INF/lib/commons-dbcp2-2.11.0-test-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/WEB-INF/lib/commons-dbcp2-2.11.0-tests.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/WEB-INF/lib/commons-dbcp2-2.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/WEB-INF/lib/commons-dbutils-1.8.1-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/WEB-INF/lib/commons-dbutils-1.8.1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/WEB-INF/lib/commons-dbutils-1.8.1-test-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/WEB-INF/lib/commons-dbutils-1.8.1-tests.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/WEB-INF/lib/commons-dbutils-1.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/WEB-INF/lib/mysql-connector-java-8.0.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/WEB-INF/lib/slf4j-api-2.0.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/assets/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/assets/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/assets/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/assets/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/assets/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/assets/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/assets/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/assets/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/assets/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/assets/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/assets/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/assets/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/assets/img/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/assets/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/assets/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/assets/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/assets/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/assets/js/style.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/cargo-manger.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/footer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/header.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/i.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/user-add.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/user-manger.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/user-update.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/warehouse-manger.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo06/web/working-area.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/Demo07.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/dao/InventoryDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/dao/ProductDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/dao/RoleDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/dao/UserDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/dao/WarehouseDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/dao/api/InventoryDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/dao/api/ProductDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/dao/api/RoleDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/dao/api/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/dao/api/WarehouseDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/entity/Inventory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/entity/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/entity/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/entity/Warehouse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/service/InventoryServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/service/ProductServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/service/RoleServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/service/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/service/WarehouseServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/service/api/InventoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/service/api/ProductService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/service/api/RoleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/service/api/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/service/api/WarehouseService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/servlet/InventoryServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/servlet/LoginServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/servlet/LogoutServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/servlet/ProductServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/servlet/RegisterServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/servlet/RoleServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/servlet/UserServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/servlet/WarehouseServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/util/DBUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/src/com/shey/util/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/web/WEB-INF/lib/HikariCP-5.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/web/WEB-INF/lib/commons-dbcp2-2.11.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/web/WEB-INF/lib/commons-dbcp2-2.11.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/web/WEB-INF/lib/commons-dbcp2-2.11.0-test-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/web/WEB-INF/lib/commons-dbcp2-2.11.0-tests.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/web/WEB-INF/lib/commons-dbcp2-2.11.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/web/WEB-INF/lib/commons-dbutils-1.8.1-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/web/WEB-INF/lib/commons-dbutils-1.8.1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/web/WEB-INF/lib/commons-dbutils-1.8.1-test-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/web/WEB-INF/lib/commons-dbutils-1.8.1-tests.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/web/WEB-INF/lib/commons-dbutils-1.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/web/WEB-INF/lib/mysql-connector-java-8.0.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/web/WEB-INF/lib/slf4j-api-2.0.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/web/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/web/assets/img/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/web/assets/js/style.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/web/error/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/web/error/500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/web/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/web/register.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/web/userAdd.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/web/userManagement.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-cargo-management-system-final-course/Demo07/web/workspace.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-online-course-code/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-online-course-code/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-online-course-code/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-online-course-code/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-online-course-code/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-online-course-code/javaweb-online-course-code.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaweb-online-course-code/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sql-practice/DB_CourseSelectionClass.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../sql-practice/DB_CourseSelectionClass.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sql-practice/DataGripWorkSpace/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sql-practice/DataGripWorkSpace/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sql-practice/DataGripWorkSpace/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sql-practice/DataGripWorkSpace/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sql-practice/作业04面试题.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../sql-practice/作业04面试题.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../sql-practice/课本5.1-5.17例题.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../sql-practice/课本5.1-5.17例题.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web-practice/system-framework/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../web-practice/system-framework/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Experiment_08/src/JtdsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Experiment_08/src/JtdsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python-practice/python-notebook/01_variable.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python-practice/python-notebook/01_variable.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python-practice/python-notebook/02_basic_data_type.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python-practice/python-notebook/02_basic_data_type.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -437,6 +45,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.JEx.executor&quot;: &quot;Run&quot;,
     &quot;Application.JtdsExample.executor&quot;: &quot;Run&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
@@ -459,7 +68,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -476,7 +85,7 @@
       <recent name="D:\Code Space\Ordinary Repository\code-practice\java-practice\java-school-curriculum-experiment" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JtdsExample">
+  <component name="RunManager" selected="Application.JEx">
     <configuration name="ConnectURL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConnectURL" />
       <module name="Experiment_08" />
@@ -491,15 +100,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JtdsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JtdsExample" />
+    <configuration name="JEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JEx" />
       <module name="Experiment_08" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SQLServerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SQLServerExample" />
+    <configuration name="JtdsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JtdsExample" />
       <module name="Experiment_08" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -514,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JEx" />
         <item itemvalue="Application.JtdsExample" />
         <item itemvalue="Application.connectDS" />
         <item itemvalue="Application.DBHelper" />
         <item itemvalue="Application.ConnectURL" />
-        <item itemvalue="Application.SQLServerExample" />
       </list>
     </recent_temporary>
   </component>
@@ -540,6 +149,18 @@
       <workItem from="1701877509340" duration="4840000" />
       <workItem from="1702085281862" duration="115000" />
       <workItem from="1702085404032" duration="4000" />
+      <workItem from="1702101977978" duration="35000" />
+      <workItem from="1702105193720" duration="218000" />
+      <workItem from="1702105524569" duration="1571000" />
+      <workItem from="1702107103481" duration="94000" />
+      <workItem from="1702107208011" duration="151000" />
+      <workItem from="1702110855293" duration="167000" />
+      <workItem from="1702218296838" duration="31000" />
+      <workItem from="1702260494108" duration="648000" />
+      <workItem from="1702268636857" duration="563000" />
+      <workItem from="1702279447095" duration="715000" />
+      <workItem from="1702292859811" duration="59000" />
+      <workItem from="1702293126913" duration="1416000" />
     </task>
     <servers />
   </component>
