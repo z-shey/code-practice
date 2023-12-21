@@ -1,8 +1,8 @@
 -- 创建选课系统数据库
-CREATE DATABASE CourseSelection_class;
+CREATE DATABASE CourseSelection_class2;
 
 -- 使用选课系统数据库
-USE CourseSelection_class;
+USE CourseSelection_class2;
 
 CREATE SCHEMA "S-T" AUTHORIZATION db_accessadmin;
 -- 创建学生关系

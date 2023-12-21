@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="073b03d0-46d1-4050-9841-fb3c2231bd20" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/14ca14b7-bd45-4997-a4be-386ac4bfe787.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/14ca14b7-bd45-4997-a4be-386ac4bfe787.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/14ca14b7-bd45-4997-a4be-386ac4bfe787/storage_v2/_src_/database/Algorithm_SQL.voXe8w/schema/ALG.fP0AAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/14ca14b7-bd45-4997-a4be-386ac4bfe787/storage_v2/_src_/database/Algorithm_SQL.voXe8w/schema/ALG.fP0AAA.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/14ca14b7-bd45-4997-a4be-386ac4bfe787/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/14ca14b7-bd45-4997-a4be-386ac4bfe787/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/14ca14b7-bd45-4997-a4be-386ac4bfe787/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/14ca14b7-bd45-4997-a4be-386ac4bfe787/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Experiment_08/src/JtdsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Experiment_08/src/JtdsExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../python-practice/python-notebook/01_variable.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python-practice/python-notebook/01_variable.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../python-practice/python-notebook/02_basic_data_type.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../python-practice/python-notebook/02_basic_data_type.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Experiment_08/Experiment_08.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Experiment_08/Experiment_08.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sql-practice/DB_CourseSelectionClass.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../sql-practice/DB_CourseSelectionClass.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sql-practice/DataGripWorkSpace/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../sql-practice/DataGripWorkSpace/.idea/sqldialects.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +41,7 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Application.JEx.executor&quot;: &quot;Run&quot;,
     &quot;Application.JtdsExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SS.executor&quot;: &quot;Run&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
@@ -58,13 +53,13 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Code Space/Ordinary Repository/code-practice/java-practice/javaweb-cargo-management-system-final-course&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Develop/Envs/jar/sqljdbc_6.0/chs/jre8/sqljdbc42.jar&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
@@ -85,14 +80,7 @@
       <recent name="D:\Code Space\Ordinary Repository\code-practice\java-practice\java-school-curriculum-experiment" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JEx">
-    <configuration name="ConnectURL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConnectURL" />
-      <module name="Experiment_08" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SS">
     <configuration name="DBHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DBHelper" />
       <module name="Experiment_08" />
@@ -114,6 +102,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SS" />
+      <module name="Experiment_08" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="connectDS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="connectDS" />
       <module name="Experiment_08" />
@@ -123,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SS" />
         <item itemvalue="Application.JEx" />
         <item itemvalue="Application.JtdsExample" />
         <item itemvalue="Application.connectDS" />
         <item itemvalue="Application.DBHelper" />
-        <item itemvalue="Application.ConnectURL" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +156,15 @@
       <workItem from="1702279447095" duration="715000" />
       <workItem from="1702292859811" duration="59000" />
       <workItem from="1702293126913" duration="1416000" />
+      <workItem from="1702369020052" duration="1252000" />
+      <workItem from="1702370482579" duration="111000" />
+      <workItem from="1702370613797" duration="830000" />
+      <workItem from="1702371656295" duration="279000" />
+      <workItem from="1702374521968" duration="4000" />
+      <workItem from="1702433106163" duration="2000" />
+      <workItem from="1702996479035" duration="555000" />
+      <workItem from="1702997728833" duration="3000" />
+      <workItem from="1703031331170" duration="23000" />
     </task>
     <servers />
   </component>
