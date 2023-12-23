@@ -110,9 +110,15 @@ public class AdministratorView {
                         public void keyPressed(KeyEvent e) {
                             if (e.getKeyCode() == KeyEvent.VK_DELETE) {
                                 int row = table.getSelectedRow();
+//                                resultSetTableModelSelectTeacherInfo.deleteRow(row);
+//                                table.setModel(new ResultSetTableModel(Objects.requireNonNull(
+//                                            ResultSetTableModel.freshData(
+//                                                    BaseDao.TEACHER,
+//                                                    BaseDao.USER_ROLE_ADMIN)
+//                                    )));
+
                                 if (row != -1) {
                                     resultSetTableModelSelectTeacherInfo.deleteRow(row);
-
                                     table.setModel(new ResultSetTableModel(Objects.requireNonNull(
                                             ResultSetTableModel.freshData(
                                                     BaseDao.TEACHER,

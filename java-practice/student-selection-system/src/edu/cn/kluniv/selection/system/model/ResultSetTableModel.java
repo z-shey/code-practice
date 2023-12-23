@@ -12,7 +12,6 @@ import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 
 public class ResultSetTableModel extends AbstractTableModel {
-
     private ResultSet resultSet;
     private ResultSetMetaData resultSetMetaData;
 
@@ -21,8 +20,7 @@ public class ResultSetTableModel extends AbstractTableModel {
         try {
             resultSetMetaData = resultSet.getMetaData();
         } catch (SQLException e) {
-            String message = "ResultSetTableModel:resultSet.getMetaData";
-            System.out.println(message + e.getMessage());
+            System.out.println(e.getMessage());
         }
     }
 
@@ -34,11 +32,10 @@ public class ResultSetTableModel extends AbstractTableModel {
         try {
             return resultSetMetaData.getColumnName(columnIndex + 1);
         } catch (SQLException e) {
-            System.out.println("ResultSetTableModel:rsmd.getColumnName失败!!!");
+            System.out.println(e.getMessage());
         }
         return null;
     }
-
 
     @Override
     public int getRowCount() {
@@ -48,53 +45,60 @@ public class ResultSetTableModel extends AbstractTableModel {
             resultSet.beforeFirst();
             return rowCount;
         } catch (SQLException e) {
-            System.out.println("ResultSetTableModel:rs.getRow失败!!!");
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
         return 0;
     }
-
 
     @Override
     public int getColumnCount() {
         try {
             return resultSetMetaData.getColumnCount();
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
         return 0;
     }
 
     public void setValueAt(Object object, int rowIndex, int columnIndex) {
         try {
+
+            resultSet.absolute(rowIndex + 1);
+            resultSet.updateObject(columnIndex + 1, object);
+            resultSet.updateRow();
+
+            /*
             if (resultSet.absolute(rowIndex + 1) && !resultSet.rowDeleted()) {
                 resultSet.updateObject(columnIndex + 1, object);
             } else {
                 resultSet.absolute(rowIndex + 1);
             }
             resultSet.updateRow();
+            */
+
             fireTableCellUpdated(rowIndex, columnIndex);
         } catch (SQLException e) {
-            System.out.println("ResultSetTableModel:rs,setValueAt失败!!!");
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 
     @Override
     public Object getValueAt(int rowIndex, int columnIndex) {
         try {
+//            resultSet.absolute(rowIndex + 1);
+//            return resultSet.getObject(columnIndex + 1);
             if (resultSet.absolute(rowIndex + 1) && !resultSet.rowDeleted()) {
                 return resultSet.getObject(columnIndex + 1);
             } else {
                 resultSet.absolute(rowIndex + 1);
             }
         } catch (SQLException e) {
-            System.out.println("ResultSetTableModel:rs.getvalueAt获取失败");
+            System.out.println(e.getMessage());
             e.printStackTrace();
         }
-
         return null;
     }
+
 
     public boolean isCellEditable(int rowIndex, int columnIndex) {
         try {
@@ -102,7 +106,7 @@ public class ResultSetTableModel extends AbstractTableModel {
                 return true;
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
         return false;
     }
@@ -113,6 +117,7 @@ public class ResultSetTableModel extends AbstractTableModel {
             resultSet.deleteRow();
             fireTableRowsDeleted(rowIndex, rowIndex);
         } catch (SQLException e) {
+            System.out.println(e.getMessage());
             e.printStackTrace();
         }
     }
@@ -129,7 +134,7 @@ public class ResultSetTableModel extends AbstractTableModel {
             resultSet.insertRow();
             fireTableRowsInserted(rowInserted, rowInserted);
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 
@@ -146,7 +151,7 @@ public class ResultSetTableModel extends AbstractTableModel {
             resultSet.insertRow();
             fireTableRowsInserted(rowInserted, rowInserted);
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 
@@ -162,10 +167,9 @@ public class ResultSetTableModel extends AbstractTableModel {
             resultSet.insertRow();
             fireTableRowsInserted(rowInserted, rowInserted);
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
-
 
     static public ResultSet freshData(String type, int role) {
         DBUtil dbUtil = new DBUtil();
@@ -184,7 +188,5 @@ public class ResultSetTableModel extends AbstractTableModel {
                 return null;
         }
     }
-
-
 }
 
